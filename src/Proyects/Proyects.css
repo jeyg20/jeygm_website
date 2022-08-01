@@ -1,0 +1,13 @@
+.Link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.GitHub {
+    margin: auto;
+}
+.GitHub a {
+    
+    font-size: 2rem;
+    color: var(--honey-yellow);
+}
