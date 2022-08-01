@@ -1,0 +1,24 @@
+.welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    margin-top: 5vh;
+}
+.greater-than {
+    font-size: 30rem;
+    color: var(--honey-yellow);
+    order: 1;
+}
+.welcome-message {
+    order: 2;
+    color: var(--font);
+    text-align: center;
+    font-size: 3rem;
+}
+.less-than {
+    font-size: 30rem;
+    color: var(--honey-yellow);
+    order: 3;
+}
