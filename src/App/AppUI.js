@@ -1,6 +1,5 @@
 import React from "react";
 import './App.css';
-import { Home } from '../Home';
 
 function AppUI () {
     return (
@@ -9,16 +8,16 @@ function AppUI () {
                 <nav class="nav-bar">
                     <ul class="nav-bar-items">
                         <li>
-                            <a href="./index.html">Home</a>
+                            <a href="">Home</a>
                         </li>
                         <li>
-                            <a href="./proyects.html">Proyects</a>
+                            <a href="">Proyects</a>
                         </li>
                         <li>
-                            <a href="./blog.html">Blog</a>
+                            <a href="">Blog</a>
                         </li>
                         <li>
-                            <a href="./about.html">About</a>
+                            <a href="">About</a>
                         </li>
                     </ul>
                 </nav>
