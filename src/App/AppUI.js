@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import { Home } from "../Home";
-import { Proyects } from "../Proyects";
+import { Blog } from "../Blog";
 
 function AppUI () {
     let Component
@@ -9,8 +9,8 @@ function AppUI () {
         case "/Home":
             Component = Home;
             break;
-        case "/Proyects":
-            Component = Proyects;
+        case "/Blog":
+            Component = Blog;
             break;
         default:
             Component = Home
@@ -22,9 +22,7 @@ function AppUI () {
                 <nav class="nav-bar">
                     <ul class="nav-bar-items">
                         <CustomLink href="/Home">Home</CustomLink>
-                        <CustomLink href="/Proyects">Proyects</CustomLink>
-                        <CustomLink href="#">Blog</CustomLink>
-                        <CustomLink href="#">About</CustomLink>
+                        <CustomLink href="/Blog">Blog</CustomLink>
                     </ul>
                 </nav>
             </header>
