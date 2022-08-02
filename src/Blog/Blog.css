@@ -1,0 +1,14 @@
+.blog-title {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.blog-title h1 {
+	order: 1;
+	margin-top: 5px;
+	color: var(--font);
+  font-size: 2rem; 
+	font-weight: normal;
+}

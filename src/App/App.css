@@ -14,7 +14,7 @@
     text-decoration: none;
     color: var(--font);
     font-weight: normal;
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 .nav-bar-items a:hover {
     color: var(--honey-yellow);
